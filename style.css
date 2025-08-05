@@ -66,3 +66,14 @@ p {
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
+
+@media screen and (max-width: 750px) {
+  #game-board {
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 1; /* Remove o espaçamento */
+  }
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+}
